@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Logo from "./Logo";
 
 const navLinksArray = [
   {
@@ -34,7 +35,7 @@ export default function Menu() {
   };
 
   return (
-    <nav className="fixed top-5 right-5">
+    <nav className="fixed top-5 right-5 lg:top-10 lg:right-10 font-serif">
       <div className={isMenuOpen ? "hidden" : "flex flex-row"}>
         <button
           onClick={toggleMenu}
@@ -46,9 +47,11 @@ export default function Menu() {
 
       {isMenuOpen && (
         <div className="fixed top-0 right-0 m-0 h-full w-full bg-primaryDark text-white z-[9000] animate__animated animate__slideInRight animate__fast 2xl:animate__faster">
-          <div className="flex flex-col gap-10 h-full justify-between items-start p-5">
+          <div className="flex flex-col gap-10 h-full justify-between items-start p-5 lg:p-10">
             <div className="flex flex-row w-full gap-5 justify-between items-start">
-              Logo
+              <div className="w-full lg:w-1/2 h-auto">
+                <Logo color={`var(--white)`} />
+              </div>
               <button
                 onClick={toggleMenu}
                 className="z-[9991] underline underline-offset-4 hover-underline"
