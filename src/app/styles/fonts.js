@@ -1,14 +1,19 @@
 import localFont from "next/font/local";
-import { Inter, Lora, Roboto_Mono } from "next/font/google";
+
+export const display = localFont({
+  src: "./fonts/BespokeStencil-Variable.woff2",
+  display: "swap",
+  variable: "--font-display",
+});
 
 export const sans = localFont({
-  src: "./fonts/Satoshi-Variable.woff2",
+  src: "./fonts/BespokeSans-Variable.woff2",
   display: "swap",
   variable: "--font-sans",
 });
 
 export const serif = localFont({
-  src: "./fonts/Recia-Variable.woff2",
+  src: "./fonts/BespokeSerif-Variable.woff2",
   display: "swap",
   variable: "--font-serif",
 });
@@ -18,24 +23,3 @@ export const mono = localFont({
   display: "swap",
   variable: "--font-mono",
 });
-
-// export const sans = Inter({
-//   weight: "variable",
-//   display: "swap",
-//   variable: "--font-sans",
-//   subsets: ["latin"],
-// });
-
-// export const serif = Lora({
-//   weight: "variable",
-//   display: "swap",
-//   variable: "--font-serif",
-//   subsets: ["latin"],
-// });
-
-// export const mono = Roboto_Mono({
-//   weight: "variable",
-//   display: "swap",
-//   variable: "--font-mono",
-//   subsets: ["latin"],
-// });

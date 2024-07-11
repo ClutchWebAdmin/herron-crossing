@@ -24,7 +24,7 @@ module.exports = {
         sans: ["var(--font-sans)", "sans-serif"],
         serif: ["var(--font-serif)", "serif"],
         mono: ["var(--font-mono)", "monospace"],
-        heading: ["var(--font-sans)", "sans-serif"],
+        display: ["var(--font-display)", "sans-serif"],
         body: ["var(--font-sans)", "sans-serif"],
       },
       fontSize: {

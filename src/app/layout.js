@@ -1,4 +1,4 @@
-import { sans, serif, mono } from "./styles/fonts";
+import { sans, serif, mono, display } from "./styles/fonts";
 import "./globals.css";
 import "animate.css";
 import TheHeader from "./components/TheHeader";
@@ -8,10 +8,10 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${sans.variable} ${serif.variable} ${mono.variable} scroll-smooth`}
+      className={`${sans.variable} ${serif.variable} ${mono.variable} ${display.variable} scroll-smooth`}
     >
       <body className="min-h-svh w-screen max-w-full flex flex-col mx-auto relative antialiased">
-        <TheHeader />
+        <TheHeader variant={`absolute`} />
         {children}
         <TheFooter />
       </body>
