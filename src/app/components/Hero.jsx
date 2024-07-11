@@ -5,13 +5,16 @@ export default function Hero({ variant, media }) {
     return (
       <section className="h-svh w-full">
         <video
-          src={media}
           autoPlay
+          muted
           loop
           playsInline
           preload="auto"
           className="w-full h-full object-cover"
-        />
+        >
+          <source src={media} type="video/mp4" />
+          Your browser doesn not support the video tag.
+        </video>
       </section>
     );
   } else if (variant === "photo") {
@@ -20,10 +23,8 @@ export default function Hero({ variant, media }) {
         <Image
           src={media}
           alt="Alt text"
-          autoPlay
-          loop
-          playsInline
-          preload="auto"
+          priority
+          placeholder="blur"
           className="w-full h-full object-cover"
         />
       </section>
