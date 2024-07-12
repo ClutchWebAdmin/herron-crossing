@@ -7,7 +7,7 @@ export const display = localFont({
 });
 
 export const sans = localFont({
-  src: "./fonts/BespokeSans-Variable.woff2",
+  src: "./fonts/UncutSans-Variable.woff2",
   display: "swap",
   variable: "--font-sans",
 });
