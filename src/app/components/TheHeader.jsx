@@ -16,7 +16,7 @@ export default function TheHeader() {
         <div className={`hidden lg:flex lg:w-1/5 text-center`}>
           <Link
             href="/details"
-            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l-2 hover:text-white`}
+            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l hover:text-white`}
           >
             Details
           </Link>
@@ -24,7 +24,7 @@ export default function TheHeader() {
         <div className={`hidden lg:flex lg:w-1/5 text-center`}>
           <Link
             href="/photos"
-            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l-2 hover:text-white`}
+            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l hover:text-white`}
           >
             Photos
           </Link>
@@ -32,7 +32,7 @@ export default function TheHeader() {
         <div className={`hidden lg:flex lg:w-1/5 text-center`}>
           <Link
             href="/"
-            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l-2 border-r-2 hover:text-white`}
+            className={`w-full py-2 font-medium bg-transparent transition-all duration-200 ease-in-out hover:bg-primaryLight border-primaryLight hover:border-primaryLight border-l border-r hover:text-white`}
           >
             Request Info
           </Link>
