@@ -8,7 +8,7 @@ export default function Logo({ color }) {
       xmlns="http://www.w3.org/2000/svg"
       className="flex w-auto h-full"
     >
-      <g clip-path="url(#clip0_545_4603)">
+      <g clipPath="url(#clip0_545_4603)">
         <path
           d="M47.9148 2.47007C47.9148 0.959736 47.9148 1.15196 45.2034 1.15196C42.4277 1.15196 42.4277 0.959736 42.4277 2.47007V39.6882L5.064 2.31974C3.99291 1.24865 4.38181 1.06448 2.01121 3.44029C0.221341 5.2341 0.117243 5.12667 1.18599 6.19774L38.5498 43.5662L1.32222 43.5779C-0.192811 43.5779 0.00891998 43.6279 0.00892375 46.3465C0.00892753 49.065 -0.192811 49.065 1.32222 49.065L47.9101 49.0532L47.9148 2.47007Z"
           fill={color}
@@ -34,11 +34,6 @@ export default function Logo({ color }) {
           fill={color}
         />
       </g>
-      <defs>
-        <clipPath id="clip0_545_4603">
-          <rect width="500" height="123.57" fill={color} />
-        </clipPath>
-      </defs>
     </svg>
   );
 }
