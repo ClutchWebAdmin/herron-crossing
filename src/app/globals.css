@@ -13,6 +13,8 @@
   --secondaryMid: #554235;
   --secondaryLight: #745a48;
   --secondaryLightest: #94725c;
+  --mobileHeaderHeight: 80px;
+  --desktopHeaderHeight: 84px;
 }
 
 body {
