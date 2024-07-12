@@ -2,9 +2,9 @@ import Logo from "./Logo";
 
 export default function TheFooter() {
   return (
-    <footer className="bg-primaryDark text-white">
+    <footer className="flex bg-primaryDark text-white">
       <div className="m-5 lg:m-10">
-        <div className="w-full lg:w-1/2 h-auto">
+        <div className="w-auto h-[50px]">
           <Logo color={`var(--white)`} />
         </div>
       </div>
