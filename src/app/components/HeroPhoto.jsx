@@ -13,7 +13,13 @@ export default function HeroPhoto({
 }) {
   return (
     <section className="h-svh w-full relative animate__animated animate__fadeIn">
-      <Image src={image} alt={altText} className="w-full h-2/3 object-cover" />
+      <Image
+        src={image}
+        alt={altText}
+        className="w-full h-2/3 object-cover"
+        priority
+        placeholder="blur"
+      />
       <div className="absolute top-0 bottom-0 left-0 right-0 flex w-full h-2/3 pt-[var(--mobileHeaderHeight)] lg:pt-[var(--desktopHeaderHeight) text-white">
         <h2 className="flex lg:hidden text-h2 md:text-h1 font-medium p-5 h-fit w-fit mt-auto">
           {heading}
