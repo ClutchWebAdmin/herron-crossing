@@ -3,13 +3,12 @@ import Button from "./UI/Button";
 
 export default function HeroVideo({ media }) {
   return (
-    <section className="h-svh w-full relative animate__animated animate__fadeIn animate__slow">
+    <section className="h-svh w-full relative">
       <video
         autoPlay
         muted
         loop
         playsInline
-        preload="auto"
         className="w-full h-full object-cover"
       >
         <source src={media} type="video/mp4" />
