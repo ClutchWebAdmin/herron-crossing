@@ -49,7 +49,7 @@ export default function SummarySection() {
       <div className="w-full h-full sticky top-0 right-0 lg:w-1/2">
         <Image
           src={photo}
-          alt="Turner road field in the morning sun"
+          alt="Turner road"
           className="w-full h-auto object-cover aspect-square saturate-150"
           placeholder="blur"
         />
