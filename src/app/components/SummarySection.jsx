@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "./UI/Button";
 import { MdArrowDownward } from "react-icons/md";
-import photo from "../../../public/images/summary-section-view.png";
+import photo from "../../../public/images/summary-section-image.png";
 
 export default function SummarySection() {
   return (
@@ -50,9 +50,8 @@ export default function SummarySection() {
         <Image
           src={photo}
           alt="Turner road field in the morning sun"
-          className="w-full h-auto object-cover aspect-square"
+          className="w-full h-auto object-cover aspect-square saturate-150"
           placeholder="blur"
-          quality={100}
         />
       </div>
     </section>
