@@ -22,8 +22,8 @@ export default function HeroVideo({ media }) {
           </h1>
           <div className="flex-1 lg:mt-6 lg:mb-6 2xl:mt-10 2xl:mb-8">
             <div className="flex h-full flex-col lg:flex-row">
-              <div className="flex w-full lg:w-4/5 h-1/3 lg:h-full border-l-2 border-b-2 lg:border-l-0 lg:border-b-0 lg:border-t-2 border-white"></div>
-              <div className="flex w-full lg:w-1/5 h-2/3 lg:h-full border-r-2 lg:border-r-0 lg:border-l-2 lg:border-b-2 border-white"></div>
+              <div className="flex w-full lg:w-4/5 xl:w-3/5 h-1/3 lg:h-full border-l-2 border-b-2 lg:border-l-0 lg:border-b-0 lg:border-t-2 border-white"></div>
+              <div className="flex w-full lg:w-1/5 xl:w-2/5 h-2/3 lg:h-full border-r-2 lg:border-r-0 lg:border-l-2 lg:border-b-2 border-white"></div>
             </div>
           </div>
           <h1 className="font-medium md:font-semibold text-h3 md:text-h1 lg:text-h2 2xl:text-h1 w-full lg:w-fit flex justify-end items-end">
