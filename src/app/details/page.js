@@ -1,7 +1,7 @@
 import HeroPhoto from "../components/HeroPhoto";
 import hero from "../../../public/images/hero.png";
 import { MdArrowOutward } from "react-icons/md";
-import Button from "../components/UI/Button";
+import SummarySection from "../components/SummarySection";
 
 export default function DetailsPage() {
   return (
@@ -12,11 +12,11 @@ export default function DetailsPage() {
         heading={`Unparalleled potential`}
         subheading={`Discover a rare development opportunity with this 390-acre property within city boundaries`}
         buttonVariant={`double`}
-        linkText={`View details`}
-        linkTo={`#details`}
+        linkText={`Read more`}
+        linkTo={`#summary`}
         icon={<MdArrowOutward />}
       />
-      <section id="details" className="h-[700px]"></section>
+      <SummarySection />
     </main>
   );
 }
