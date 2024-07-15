@@ -64,7 +64,7 @@ module.exports = {
           },
         ],
         h6: [
-          "23px",
+          "19px",
           {
             lineHeight: "120%",
             letterSpacing: "0%",
