@@ -1,4 +1,4 @@
-import Hero from "./components/Hero";
+import HeroVideo from "./components/HeroVideo";
 
 export const metadata = {
   title: "Herron Crossing",
@@ -29,7 +29,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <main>
-      <Hero variant={`video`} media={`/videos/hero-video.mp4`} />
+      <HeroVideo media={`/videos/hero-video.mp4`} />
     </main>
   );
 }
