@@ -4,8 +4,8 @@
 
 :root {
   --white: #e6e5e4;
-  --black: #181818;
-  --primaryDark: #3c3f37;
+  --black: #141514;
+  --primaryDark: #2c2e28;
   --primaryMid: #565a4f;
   --primaryLight: #6f7566;
   --primaryLightest: #888e7e;
@@ -19,7 +19,7 @@
 
 body {
   background-color: var(--white);
-  color: var(--black);
+  color: var(--primaryDark);
 }
 
 main {

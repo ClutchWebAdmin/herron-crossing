@@ -8,7 +8,7 @@ export default function TheHeader() {
   return (
     <header>
       <nav
-        className={`absolute top-0 z-50 flex flex-row w-full p-5 items-center bg-white text-primaryDark`}
+        className={`absolute top-0 z-50 flex flex-row w-full p-5 items-center bg-white`}
       >
         <Link href="/" className="lg:w-1/6 h-[40px]">
           <Logo color={`var(--primaryDark)`} />
