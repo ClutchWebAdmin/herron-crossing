@@ -9,7 +9,6 @@ export default function HeroVideo({ media }) {
         muted
         loop
         playsInline
-        preload="auto"
         className="w-full h-full object-cover"
       >
         <source src={media} type="video/mp4" />
