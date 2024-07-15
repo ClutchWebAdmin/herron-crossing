@@ -12,7 +12,7 @@ export default function TheFooter() {
           Photo Gallery
         </Link>
         <Link href={`/`} className="lg:w-1/3 lg:text-right">
-          Request info
+          Request Info
         </Link>
       </div>
 
