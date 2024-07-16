@@ -2,7 +2,7 @@ export default function DetailsSection() {
   return (
     <section
       id="details"
-      className="relative flex flex-col gap-10 px-5 py-10 h-full w-full"
+      className="relative flex flex-col gap-10 px-5 py-10 lg:py-20 h-full w-full"
     >
       <div className="flex flex-col gap-5 text-h3 md:text-h2 font-medium">
         <h3 className="w-full text-left">390 acres</h3>

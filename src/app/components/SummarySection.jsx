@@ -14,9 +14,9 @@ export default function SummarySection({
   return (
     <section
       id="summary"
-      className="relative flex flex-col lg:flex-row gap-10 px-5 py-10 h-full"
+      className="relative flex flex-col lg:flex-row gap-10 px-5 py-10 lg:py-20 h-full w-full"
     >
-      <div className="flex flex-col gap-10 w-full lg:w-1/2">
+      <div className="flex flex-col gap-10 w-full lg:w-1/2 lg:pr-20">
         <div className="flex flex-col h-full justify-between gap-20">
           <h3 className="text-h2 font-medium">{heading}</h3>
           <div className="flex flex-col gap-5 mb-10 text-h6 lg:text-h5">
