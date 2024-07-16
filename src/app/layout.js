@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${sans.variable} ${serif.variable} ${mono.variable} ${display.variable} scroll-smooth`}
     >
-      <body className="min-h-svh w-screen max-w-full flex flex-col mx-auto relative antialiased ">
+      <body className="min-h-svh w-screen max-w-full flex flex-col mx-auto relative antialiased">
         <TheHeader />
         {children}
         <TheFooter />
