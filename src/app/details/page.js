@@ -33,7 +33,7 @@ export default function DetailsPage() {
         image={summaryImage}
         altText={`Chain hanging on a steel beam`}
       />
-      {/* <DetailsSection /> */}
+      <DetailsSection />
     </main>
   );
 }
