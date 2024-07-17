@@ -15,7 +15,7 @@ export default function TheHeader() {
         </Link>
 
         <div className={`hidden lg:flex lg:invisible lg:w-2/6`}></div>
-        <div className="hidden lg:flex flex-row items-center justify-between w-3/6">
+        <div className="hidden lg:flex flex-row items-center justify-between lg:w-4/6 xl:w-3/6">
           {navLinks.map((item, index) => (
             <NavLink key={index} linkTo={item.linkTo} text={item.text} />
           ))}
