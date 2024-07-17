@@ -4,6 +4,7 @@ import "animate.css";
 import TheHeader from "./components/TheHeader";
 import TheFooter from "./components/TheFooter";
 import { Analytics } from "@vercel/analytics/react";
+import AOSLoader from "./components/utils/AOSLoader";
 
 export default function RootLayout({ children }) {
   return (
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <TheHeader />
         {children}
         <TheFooter />
+        <AOSLoader />
         <Analytics />
       </body>
     </html>

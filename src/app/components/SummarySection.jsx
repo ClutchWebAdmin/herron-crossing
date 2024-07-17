@@ -18,19 +18,33 @@ export default function SummarySection({
     >
       <div className="flex flex-col gap-10 w-full lg:w-1/2 lg:pr-20">
         <div className="flex flex-col h-full justify-between gap-20">
-          <h3 className="text-h2 font-medium">{heading}</h3>
-          <div className="flex flex-col gap-5 mb-10 text-h6 lg:text-h5">
+          <h3
+            className="text-h2 font-medium"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            {heading}
+          </h3>
+          <div
+            className="flex flex-col gap-5 mb-10 text-h6 lg:text-h5"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             {paragraphs.map((item, index) => (
               <p key={index}>{item}</p>
             ))}
           </div>
-          <Button
-            isLight
-            variant={buttonVariant}
-            linkTo={linkTo}
-            text={buttonText}
-            icon={buttonIcon}
-          />
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+            <Button
+              isLight
+              variant={buttonVariant}
+              linkTo={linkTo}
+              text={buttonText}
+              icon={buttonIcon}
+            />
+          </div>
         </div>
       </div>
       <div className="w-full h-full sticky top-0 right-0 lg:w-1/2">
@@ -39,6 +53,9 @@ export default function SummarySection({
           alt={altText}
           className="w-full h-auto object-cover aspect-square saturate-150"
           placeholder="blur"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-once="true"
         />
       </div>
     </section>
