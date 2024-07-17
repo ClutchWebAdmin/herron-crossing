@@ -46,7 +46,7 @@ export const metadata = {
 export default function PhotosPage() {
   return (
     <main className="mt-[var(--mobileHeaderHeight)] lg:mt-[var(--desktopHeaderHeight)]">
-      <section className="flex flex-col gap-10 px-5 pb-10 h-full w-full xl:w-5/6 2xl:w-4/6 mx-auto">
+      <section className="flex flex-col gap-10 px-5 pb-10 h-full w-full 2xl:w-4/6 mx-auto">
         <div id="photo-gallery" className="flex flex-col gap-10 py-10">
           <h3 className="text-h2 font-medium pb-5 border-b-2 border-black">
             Photos

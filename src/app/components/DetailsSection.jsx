@@ -15,7 +15,7 @@ export default function DetailsSection({
     >
       <div
         id="pricing"
-        className="flex flex-col gap-y-5 w-full xl:w-5/6 2xl:w-4/6 lg:mx-auto py-10"
+        className="flex flex-col gap-y-5 w-full 2xl:w-4/6 lg:mx-auto py-10"
       >
         <div className="grid md:grid-cols-3 gap-y-5">
           <div className="flex flex-col col-span-1 gap-5">
@@ -58,7 +58,7 @@ export default function DetailsSection({
 
       <div
         id="location"
-        className="flex flex-col lg:flex-row gap-10 w-full h-fit xl:w-5/6 2xl:w-4/6 mx-auto py-10"
+        className="flex flex-col lg:flex-row gap-10 w-full h-fit 2xl:w-4/6 mx-auto py-10"
       >
         <div className="w-full lg:w-1/3 order-2 lg:order-1">
           <iframe
@@ -95,7 +95,7 @@ export default function DetailsSection({
 
       <div
         id="zoning"
-        className="flex flex-col lg:flex-row gap-10 w-full xl:w-5/6 2xl:w-4/6 mx-auto py-10"
+        className="flex flex-col lg:flex-row gap-10 w-full 2xl:w-4/6 mx-auto py-10"
       >
         <div className="w-full lg:w-1/2 order-2 lg:order-1">
           <Image
@@ -121,7 +121,7 @@ export default function DetailsSection({
 
       <div
         id="taxes"
-        className="flex flex-col gap-10 py-10 w-full xl:w-5/6 2xl:w-4/6 mx-auto"
+        className="flex flex-col gap-10 py-10 w-full 2xl:w-4/6 mx-auto"
       >
         <div className="flex flex-col gap-5 md:flex-row justify-between md:items-end border-b-2 border-black pb-5">
           <h4 className="w-fit text-h3 md:text-h2 font-medium">
