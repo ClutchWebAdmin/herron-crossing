@@ -1,3 +1,6 @@
+import Image from "next/image";
+import zoningMap from "../../../public/images/zoning-map.png";
+
 export default function DetailsSection({
   acreage,
   pricePerAcre,
@@ -10,7 +13,10 @@ export default function DetailsSection({
       id="details"
       className="relative flex flex-col gap-20 px-5 h-full w-full"
     >
-      <div className="flex flex-col gap-y-5 w-full xl:w-5/6 2xl:w-4/6 lg:mx-auto py-10">
+      <div
+        id="pricing"
+        className="flex flex-col gap-y-5 w-full xl:w-5/6 2xl:w-4/6 lg:mx-auto py-10"
+      >
         <div className="grid md:grid-cols-3 gap-y-5">
           <div className="flex flex-col col-span-1 gap-5">
             <h3 className="text-h2 md:text-h3 lg:text-h2 col-span-1 font-medium">
@@ -50,21 +56,36 @@ export default function DetailsSection({
         </div>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 py-10 w-full 2xl:w-4/6 mx-auto">
-        <h4 className="col-span-full text-h3 md:text-h2 font-medium border-b-2 border-black pb-5">
-          Zoning
-        </h4>
-        {zoningData.map((zone, index) => (
-          <div key={index} className="flex flex-col gap-2">
-            <p className="text-tiny md:text-p text-primaryMid">
-              {zone.description}
-            </p>
-            <h5 className="text-h5 lg:text-h4 font-medium">{zone.code}</h5>
-          </div>
-        ))}
+      <div
+        id="zoning"
+        className="flex flex-col lg:flex-row gap-10 w-full 2xl:w-4/6 mx-auto py-10"
+      >
+        <div className="w-full lg:w-1/2 order-2 lg:order-1">
+          <Image
+            src={zoningMap}
+            alt="Zoning map"
+            className="w-full h-auto aspect-square object-cover"
+          />
+        </div>
+        <div className="w-full lg:w-1/2 h-fit grid grid-cols-2 gap-10">
+          <h4 className="col-span-full text-h3 md:text-h2 font-medium border-b-2 border-black pb-5">
+            Zoning
+          </h4>
+          {zoningData.map((zone, index) => (
+            <div key={index} className="flex flex-col gap-2">
+              <p className="text-tiny md:text-p text-primaryMid">
+                {zone.description}
+              </p>
+              <h5 className="text-h5 lg:text-h4 font-medium">{zone.code}</h5>
+            </div>
+          ))}
+        </div>
       </div>
 
-      <div className="flex flex-col gap-10 py-10 w-full 2xl:w-4/6 mx-auto">
+      <div
+        id="taxes"
+        className="flex flex-col gap-10 py-10 w-full 2xl:w-4/6 mx-auto"
+      >
         <div className="flex flex-col gap-5 md:flex-row justify-between md:items-end border-b-2 border-black pb-5">
           <h4 className="w-fit text-h3 md:text-h2 font-medium">
             Property Taxes
@@ -74,7 +95,7 @@ export default function DetailsSection({
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:flex md:flex-row md:justify-between gap-10">
           <div className="flex flex-col md:hidden gap-2">
             <p className="text-tiny md:text-p text-primaryMid">Parcel No.</p>
             <h5 className="text-h5 md:text-h4 font-medium">327913</h5>
