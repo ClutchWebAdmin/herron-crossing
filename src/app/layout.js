@@ -3,6 +3,7 @@ import "./globals.css";
 import "animate.css";
 import TheHeader from "./components/TheHeader";
 import TheFooter from "./components/TheFooter";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   return (
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <TheHeader />
         {children}
         <TheFooter />
+        <Analytics />
       </body>
     </html>
   );
