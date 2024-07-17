@@ -16,6 +16,33 @@ const propertyPhotos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
 
 const conceptMaps = [photo8, photo9, photo10, photo11, photo12];
 
+export const metadata = {
+  title: "Photo Gallery | Herron Crossing",
+  description: "390 acres of rural tranquility with urban convenience.",
+  keywords:
+    "Salem oregon, commercial property, residential property, development opportunity, land for sale, acreage for sale, city of salem",
+  openGraph: {
+    title: "Herron Crossing",
+    description: "390 acres of urban tranquility with urban convenience.",
+    siteName: "Herron Crossing",
+    type: "website",
+    locale: "en_US",
+    url: "https://herroncrossing.com",
+    images: [
+      {
+        url: "https://herroncrossing.com/images/og-image.png",
+        alt: "Herron Crossing",
+      },
+    ],
+  },
+  images: [
+    {
+      url: "https://herroncrossing.com/images/og-image.png",
+      alt: "Herron Crossing",
+    },
+  ],
+};
+
 export default function PhotosPage() {
   return (
     <main className="mt-[var(--mobileHeaderHeight)] lg:mt-[var(--desktopHeaderHeight)]">
