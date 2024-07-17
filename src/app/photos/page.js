@@ -19,22 +19,41 @@ const conceptMaps = [photo8, photo9, photo10, photo11, photo12];
 export default function PhotosPage() {
   return (
     <main className="mt-[var(--mobileHeaderHeight)] lg:mt-[var(--desktopHeaderHeight)]">
-      <section
-        id="photo-gallery"
-        className="relative grid md:grid-cols-4 lg:grid-cols-12 gap-10 px-5 py-10 h-full w-full 2xl:w-4/6 mx-auto"
-      >
-        <h3 className="text-h2 font-medium col-span-full pb-5 border-b-2 border-black">
-          Photo Gallery
-        </h3>
-        {propertyPhotos.map((photo, index) => (
-          <Image
-            key={index}
-            src={photo}
-            alt={`Photo ${index + 1}`}
-            className="w-full h-auto object-cover"
-            placeholder="blur"
-          />
-        ))}
+      <section className="flex flex-col gap-10 px-5 pb-10 h-full w-full 2xl:w-4/6 mx-auto">
+        <div
+          id="photo-gallery"
+          className="flex flex-col gap-10 col-span-full py-10"
+        >
+          <h3 className="text-h2 font-medium col-span-full pb-5 border-b-2 border-black">
+            Photo Gallery
+          </h3>
+          {propertyPhotos.map((photo, index) => (
+            <Image
+              key={index}
+              src={photo}
+              alt={`Photo ${index + 1}`}
+              className="w-full h-auto object-cover"
+              placeholder="blur"
+            />
+          ))}
+        </div>
+        <div
+          id="concept-maps"
+          className="flex flex-col gap-10 col-span-full py-10"
+        >
+          <h3 className="text-h2 font-medium col-span-full pb-5 border-b-2 border-black">
+            Concept Maps
+          </h3>
+          {conceptMaps.map((photo, index) => (
+            <Image
+              key={index}
+              src={photo}
+              alt={`Concept ${index + 1}`}
+              className="w-full h-auto object-cover"
+              placeholder="blur"
+            />
+          ))}
+        </div>
       </section>
     </main>
   );
