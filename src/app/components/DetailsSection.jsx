@@ -1,17 +1,10 @@
-const zoningData = [
-  { code: "IG", description: "General Industrial" },
-  { code: "IC", description: "Industrial Commercial" },
-  { code: "RES", description: "Residential" },
-  { code: "MU-III", description: "Mixed-Use" },
-];
-
-const taxesData = [
-  { code: "Land Assessment", description: "$0" },
-  { code: "Improvements Assessment", description: "$0" },
-  { code: "Total Assessment", description: "$11,081,720" },
-];
-
-export default function DetailsSection({ acreage, pricePerAcre, totalPrice }) {
+export default function DetailsSection({
+  acreage,
+  pricePerAcre,
+  totalPrice,
+  zoningData,
+  taxesData,
+}) {
   return (
     <section
       id="details"
