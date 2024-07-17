@@ -13,7 +13,7 @@ export default function DetailsPage() {
     "Seize the chance to shape the future of this evolving rural-suburban area. Whether you're looking to invest in a premier development project or seeking a strategic partnership, this property promises unparalleled potential.",
   ];
   return (
-    <main>
+    <main className="flex flex-col w-full gap-10 pb-20">
       <HeroPhoto
         image={hero}
         altText={`Turner Rd landscape`}

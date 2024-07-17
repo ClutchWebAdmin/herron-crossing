@@ -14,7 +14,7 @@ export default function SummarySection({
   return (
     <section
       id="summary"
-      className="relative flex flex-col lg:flex-row gap-10 px-5 py-10 lg:py-20 h-full w-full"
+      className="relative flex flex-col lg:flex-row gap-10 px-5 py-10 h-full w-full 2xl:w-4/6 mx-auto"
     >
       <div className="flex flex-col gap-10 w-full lg:w-1/2 lg:pr-20">
         <div className="flex flex-col h-full justify-between gap-20">
