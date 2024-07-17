@@ -48,13 +48,6 @@ export default function TheFooter() {
         <p className="w-full lg:w-1/3 text-center order-3 lg:order-2">
           © 2024 Herron Crossing
         </p>
-
-        <Link
-          href={`/terms`}
-          className="flex justify-center lg:justify-end w-full lg:w-1/3 hover:text-primaryLightest transition duration-200 ease-in-out order-2 lg:order-3"
-        >
-          Terms of Service
-        </Link>
       </div>
     </footer>
   );
