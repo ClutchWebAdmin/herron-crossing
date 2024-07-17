@@ -3,7 +3,7 @@ import hero from "../../../public/images/hero.png";
 import { MdArrowDownward, MdArrowOutward } from "react-icons/md";
 import SummarySection from "../components/SummarySection";
 import DetailsSection from "../components/DetailsSection";
-import summaryImage from "../../../public/images/summary-section-image.png";
+import summaryImage from "../../../public/images/hanging-chain.png";
 
 export default function DetailsPage() {
   const summaryParagraphs = [
