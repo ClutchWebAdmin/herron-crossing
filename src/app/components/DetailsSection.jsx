@@ -11,7 +11,7 @@ const taxesData = [
   { code: "Total Assessment", description: "$11,081,720" },
 ];
 
-export default function DetailsSection() {
+export default function DetailsSection({ acreage, pricePerAcre, totalPrice }) {
   return (
     <section
       id="details"
@@ -21,13 +21,13 @@ export default function DetailsSection() {
         <div className="grid md:grid-cols-3 gap-y-5">
           <div className="flex flex-col col-span-1 gap-5">
             <h3 className="text-h2 md:text-h3 lg:text-h2 col-span-1 font-medium">
-              390 acres
+              {acreage} acres
             </h3>
             <div className="flex flex-col">
-              <div className="border-l-2 border-b-2 border-black h-12 lg:h-32"></div>
+              <div className="border-l-2 border-b-2 border-black h-8 lg:h-32"></div>
               <div
                 className="border-r-2 
-          border-black h-12 lg:h-14"
+          border-black h-24 lg:h-14"
               ></div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function DetailsSection() {
         <div className="grid md:grid-cols-3 justify-items-end md:justify-items-center gap-y-5">
           <div className="flex flex-col col-span-full md:col-span-1 md:col-start-2 gap-5">
             <h3 className="text-h2 md:text-h3 lg:text-h2 font-medium">
-              $64,103/acre
+              {pricePerAcre}/acre
             </h3>
           </div>
         </div>
@@ -44,14 +44,14 @@ export default function DetailsSection() {
         <div className="grid md:grid-cols-3 gap-y-5">
           <div className="flex flex-col col-span-full md:col-span-1 md:col-start-3 gap-5">
             <div className="flex flex-col">
-              <div className="border-r-2 md:border-l-2 md:border-r-0 border-b-2 border-black h-12 lg:h-14"></div>
+              <div className="border-r-2 md:border-l-2 md:border-r-0 border-b-2 border-black h-8 lg:h-14"></div>
               <div
                 className="border-l-2 md:border-l-0 md:border-r-2 
-          border-black h-12 lg:h-32"
+          border-black h-24 lg:h-32"
               ></div>
             </div>
             <h3 className="text-h2 md:text-h3 lg:text-h2 mr-auto md:mr-0 md:ml-auto col-span-1 font-medium">
-              $25,000,000
+              {totalPrice}
             </h3>
           </div>
         </div>

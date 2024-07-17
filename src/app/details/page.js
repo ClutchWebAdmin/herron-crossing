@@ -34,7 +34,11 @@ export default function DetailsPage() {
         image={summaryImage}
         altText={`Chain hanging on a steel beam`}
       />
-      <DetailsSection />
+      <DetailsSection
+        acreage={390}
+        pricePerAcre={`$64,103`}
+        totalPrice={`$25,000,000`}
+      />
     </main>
   );
 }
