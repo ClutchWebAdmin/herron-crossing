@@ -19,12 +19,13 @@ export default function TheHeader() {
           {navLinks.map((item, index) => (
             <NavLink key={index} linkTo={item.linkTo} text={item.text} />
           ))}
-          <Link
-            href="/"
+          <a
+            href="mailto:info@traditionrep.com?Subject=Requesting%more%info%for%Herron%Crossing"
+            target="_blank"
             className="w-fit h-fit bg-transparent text-primaryDark rounded-full text-lg px-10 py-2 font-medium border border-black hover:bg-black hover:text-white transition-colors duration-200 ease-in-out"
           >
             Request info
-          </Link>
+          </a>
         </div>
 
         <Menu />
