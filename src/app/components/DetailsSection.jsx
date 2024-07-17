@@ -68,7 +68,7 @@ export default function DetailsSection({
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="w-full lg:w-1/2 h-fit grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="w-full lg:w-1/2 h-fit grid grid-cols-1 md:grid-cols-3 gap-10 order-1 lg:order-2">
           <h4 className="col-span-full h-fit text-h3 md:text-h2 font-medium border-b-2 border-black pb-5">
             Location
           </h4>
