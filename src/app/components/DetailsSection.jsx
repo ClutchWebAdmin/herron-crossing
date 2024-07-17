@@ -60,7 +60,7 @@ export default function DetailsSection({
         id="location"
         className="flex flex-col lg:flex-row gap-10 w-full h-fit 2xl:w-4/6 mx-auto py-10"
       >
-        <div className="w-full lg:w-1/2 order-2 lg:order-1">
+        <div className="w-full lg:w-1/3 order-2 lg:order-1">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.323484097441!2d-122.974508!3d44.876065499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54bff87018425c3b%3A0x1315524b8ae2583d!2s5465%20Turner%20Rd%20SE%2C%20Salem%2C%20OR%2097317!5e0!3m2!1sen!2sus!4v1721243171560!5m2!1sen!2sus"
             className="w-full h-auto aspect-square"
@@ -68,7 +68,7 @@ export default function DetailsSection({
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="w-full lg:w-1/2 h-fit grid grid-cols-1 md:grid-cols-3 gap-10 order-1 lg:order-2">
+        <div className="w-full lg:w-2/3 h-fit grid grid-cols-1 md:grid-cols-3 gap-10 order-1 lg:order-2">
           <h4 className="col-span-full h-fit text-h3 md:text-h2 font-medium border-b-2 border-black pb-5">
             Location
           </h4>
