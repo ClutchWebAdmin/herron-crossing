@@ -59,7 +59,7 @@ export default function DetailsPage() {
         image={hero}
         altText={`Turner Rd landscape`}
         heading={`Unparalleled potential`}
-        subheading={`Discover a rare development opportunity with this 390-acre property within city boundaries`}
+        subheading={`Discover a rare development opportunity with this 390-acre property within city boundaries.`}
         buttonVariant={`double`}
         linkText={`Read more`}
         linkTo={`#summary`}
