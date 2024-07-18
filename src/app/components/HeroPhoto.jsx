@@ -12,7 +12,7 @@ export default function HeroPhoto({
   icon,
 }) {
   return (
-    <section className="h-svh w-full relative">
+    <section className="h-svh w-full relative bg-primaryDark">
       <Image
         src={image}
         alt={altText}
@@ -25,12 +25,12 @@ export default function HeroPhoto({
           {heading}
         </h2>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between w-full h-1/3 bg-primaryDark text-white p-5">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 justify-between w-full 2xl:w-4/6 mx-auto h-1/3 bg-primaryDark text-white p-5">
         <div className="hidden lg:flex flex-col justify-between w-full lg:w-1/2 animate__animated animate__fadeIn">
           <h2 className="text-h4 lg:text-h1 font-medium">{heading}</h2>
         </div>
         <div className="flex flex-col gap-2 justify-between w-full lg:w-1/2 h-full animate__animated animate__fadeIn">
-          <h4 className="text-h5 md:text-h3 lg:text-h4 2xl:text-h3 font-medium">
+          <h4 className="text-h5 md:text-h3 lg:text-h4 font-medium">
             {subheading}
           </h4>
           <Button
