@@ -24,19 +24,20 @@ export default function TheFooter() {
         </div>
 
         <div className="lg:w-1/3 lg:text-right">
-          <Link
-            href={`/`}
+          <a
+            href="mailto:info@traditionrep.com?Subject=Requesting%more%info%for%Herron%Crossing"
+            target="_blank"
             className="hover:text-primaryLightest transition-colors duration-200 ease-in-out"
           >
             Request Info
-          </Link>
+          </a>
         </div>
       </div>
 
       <div className="flex w-full border-t border-primaryMid"></div>
 
       <div className="flex flex-col lg:flex-row gap-10 lg:items-center w-full text-tiny pt-10 lg:pt-0">
-        <div className="w-full lg:w-1/3 order-1">
+        <div className="w-full lg:w-1/3">
           <div
             href="/"
             className="h-[80px] md:h-[120px] lg:h-[30px] w-fit mx-auto lg:mx-0"
@@ -45,9 +46,9 @@ export default function TheFooter() {
           </div>
         </div>
 
-        <p className="w-full lg:w-1/3 text-center order-3 lg:order-2">
-          © 2024 Herron Crossing
-        </p>
+        <p className="w-full lg:w-1/3 text-center">© 2024 Herron Crossing</p>
+
+        <div className="hidden lg:flex lg:w-1/3 justify-end"></div>
       </div>
     </footer>
   );
