@@ -24,7 +24,7 @@ export default function TheHeader() {
             target="_blank"
             className="w-fit h-fit bg-transparent text-primaryDark rounded-full text-lg px-10 py-2 font-medium border border-black hover:bg-black hover:text-white transition-colors duration-200 ease-in-out"
           >
-            Request info
+            Request Info
           </a>
         </div>
 

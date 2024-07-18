@@ -4,21 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import { RiMenuFill, RiCloseFill } from "react-icons/ri";
-
-const navLinksArray = [
-  {
-    text: "Details",
-    linkTo: "/details",
-  },
-  {
-    text: "Photos",
-    linkTo: "/photos",
-  },
-  {
-    text: "Request Info",
-    linkTo: "/",
-  },
-];
+import { navLinks } from "../data/NavLinks";
 
 export default function Menu() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -66,7 +52,7 @@ export default function Menu() {
             </div>
 
             <div className="flex flex-col gap-5 h-full">
-              {navLinksArray.map((item, index) => (
+              {navLinks.map((item, index) => (
                 <Link
                   key={index}
                   href={item.linkTo}
@@ -76,6 +62,13 @@ export default function Menu() {
                   {item.text}
                 </Link>
               ))}
+              <a
+                href="mailto:info@traditionrep.com?Subject=Requesting%more%info%for%Herron%Crossing"
+                onClick={toggleMenu}
+                className="text-5xl md:text-7xl xl:text-7xl 2xl:text-8xl hover:text-clutchBlue-700 transition duration-300"
+              >
+                Request Info
+              </a>
             </div>
           </div>
         </div>
