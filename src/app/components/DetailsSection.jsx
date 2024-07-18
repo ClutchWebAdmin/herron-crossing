@@ -1,5 +1,6 @@
 import Image from "next/image";
 import zoningMap from "../../../public/images/zoning-map.png";
+import { MdDirections } from "react-icons/md";
 
 export default function DetailsSection({
   acreage,
@@ -99,8 +100,15 @@ export default function DetailsSection({
           </h4>
           <div className="col-span-full flex flex-col gap-2">
             <p className="text-tiny md:text-p text-primaryMid">Address</p>
-            <h5 className="text-h5 lg:text-h4 font-medium">
+            <h5 className="text-h5 lg:text-h4 font-medium flex flex-row gap-3">
               5465 Turner Road SE
+              <a
+                href="https://www.google.com/maps/dir//5465+Turner+Rd+SE,+Salem,+OR+97317/@44.876066,-122.974508,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x54bff87018425c3b:0x1315524b8ae2583d!2m2!1d-122.974508!2d44.8760655!3e0?hl=en&entry=ttu"
+                target="_blank"
+                className="hover:text-primaryMid transition-colors duration-200 ease-in-out"
+              >
+                <MdDirections />
+              </a>
             </h5>
           </div>
           <div className="col-span-full md:col-span-1  flex flex-col gap-2">
