@@ -55,9 +55,9 @@ export default function PhotosPage() {
             <Carousel photos={propertyPhotos} />
           </div>
         </div>
-        <div id="concept-maps" className="flex flex-col gap-10  py-10">
+        <div id="concepts" className="flex flex-col gap-10  py-10">
           <h3 className="text-h2 font-medium pb-5 border-b-2 border-black">
-            Concept Maps
+            Concepts
           </h3>
           <div className="col-span-full">
             <Carousel photos={conceptMaps} />
