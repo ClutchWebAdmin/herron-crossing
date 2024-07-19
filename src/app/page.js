@@ -30,7 +30,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <main>
-      <HeroVideo media={`/videos/hero-video.mp4`} />
+      <HeroVideo media={`/videos/turner-rd-drone-footage.mp4`} />
     </main>
   );
 }
