@@ -51,7 +51,7 @@ export default function SummarySection({
         <Image
           src={image}
           alt={altText}
-          className="w-full h-auto object-cover aspect-square saturate-150"
+          className="w-full h-auto object-cover aspect-square"
           placeholder="blur"
           data-aos="fade-in"
           data-aos-duration="1000"
