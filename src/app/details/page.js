@@ -1,5 +1,5 @@
 import HeroPhoto from "../components/HeroPhoto";
-import hero from "../../../public/images/hero.png";
+import hero from "../../../public/images/detail-page-hero.png";
 import { MdArrowDownward, MdArrowOutward } from "react-icons/md";
 import SummarySection from "../components/SummarySection";
 import DetailsSection from "../components/DetailsSection";

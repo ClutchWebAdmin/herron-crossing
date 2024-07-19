@@ -16,7 +16,7 @@ export default function HeroPhoto({
       <Image
         src={image}
         alt={altText}
-        className="w-full h-2/3 object-cover saturate-150"
+        className="w-full h-2/3 object-cover brightness-[85%]"
         priority
         placeholder="blur"
       />
