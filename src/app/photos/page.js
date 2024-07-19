@@ -10,12 +10,40 @@ import photo9 from "../../../public/images/concept-map-2.png";
 import photo10 from "../../../public/images/concept-map-3.png";
 import photo11 from "../../../public/images/concept-map-4.png";
 import photo12 from "../../../public/images/concept-map-5.png";
+import photo13 from "../../../public/images/aerial-view-1.png";
+import photo14 from "../../../public/images/aerial-view-2.png";
+import photo15 from "../../../public/images/aerial-view-3.png";
+import photo16 from "../../../public/images/aerial-view-4.png";
+import photo17 from "../../../public/images/aerial-view-5.png";
+import photo18 from "../../../public/images/aerial-view-6.png";
+import photo20 from "../../../public/images/aerial-view-8.png";
+import photo21 from "../../../public/images/aerial-view-9.png";
+import photo22 from "../../../public/images/aerial-view-10.png";
+import photo23 from "../../../public/images/aerial-view-11.png";
 import hero from "../../../public/images/photo-page-hero.png";
 import HeroPhoto from "../components/HeroPhoto";
 import { MdArrowOutward } from "react-icons/md";
 import Carousel from "../components/Carousel";
 
-const propertyPhotos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
+const propertyPhotos = [
+  photo13,
+  photo14,
+  photo15,
+  photo16,
+  photo17,
+  photo18,
+  photo20,
+  photo21,
+  photo22,
+  photo23,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  photo6,
+  photo7,
+];
 
 const conceptMaps = [photo8, photo9, photo10, photo11, photo12];
 
