@@ -57,7 +57,7 @@ export default function Menu() {
                   key={index}
                   href={item.linkTo}
                   onClick={toggleMenu}
-                  className="text-5xl md:text-7xl xl:text-7xl 2xl:text-8xl hover:text-clutchBlue-700 transition duration-300"
+                  className="text-4xl md:text-7xl xl:text-7xl 2xl:text-8xl hover:text-clutchBlue-700 transition duration-300"
                 >
                   {item.text}
                 </Link>
@@ -65,7 +65,7 @@ export default function Menu() {
               <a
                 href="mailto:info@traditionrep.com?Subject=Requesting%more%info%for%Herron%Crossing"
                 onClick={toggleMenu}
-                className="text-5xl md:text-7xl xl:text-7xl 2xl:text-8xl hover:text-clutchBlue-700 transition duration-300"
+                className="text-4xl md:text-7xl xl:text-7xl 2xl:text-8xl hover:text-clutchBlue-700 transition duration-300"
               >
                 Request Info
               </a>

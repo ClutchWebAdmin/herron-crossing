@@ -8,10 +8,10 @@ export default function TheHeader() {
   return (
     <header>
       <nav
-        className={`absolute top-0 z-50 flex flex-row w-full p-5 items-center bg-white`}
+        className={`absolute top-0 z-50 flex flex-row w-full p-5 items-center text-white`}
       >
         <Link href="/" className="lg:w-1/6 h-[40px]">
-          <Logo color={`var(--primaryDark)`} />
+          <Logo color={`var(--white)`} />
         </Link>
 
         <div className={`hidden lg:flex lg:invisible lg:w-2/6`}></div>
@@ -22,7 +22,7 @@ export default function TheHeader() {
           <a
             href="mailto:info@traditionrep.com?Subject=Requesting%more%info%for%Herron%Crossing"
             target="_blank"
-            className="w-fit h-fit bg-transparent text-primaryDark rounded-full text-lg px-10 py-2 font-medium border border-black hover:bg-black hover:text-white transition-colors duration-200 ease-in-out"
+            className="w-fit h-fit bg-black text-white rounded-full text-lg px-10 py-2 font-medium border border-black hover:bg-transparent hover:border-white transition-colors duration-200 ease-in-out"
           >
             Request Info
           </a>
