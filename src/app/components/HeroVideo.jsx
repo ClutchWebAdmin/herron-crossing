@@ -9,13 +9,13 @@ export default function HeroVideo({ media }) {
         muted
         loop
         playsInline
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover brightness-[85%]"
       >
         <source src={media} type="video/mp4" />
         Your browser doesn not support the video tag.
       </video>
       <div className="absolute top-0 bottom-0 left-0 right-0 w-full h-full pt-[var(--mobileHeaderHeight)] lg:pt-[var(--desktopHeaderHeight) p-5 text-white flex flex-col gap-5">
-        <div className="flex flex-col lg:flex-row gap-5 w-full h-full pt-5 animate__animated animate__fadeIn">
+        <div className="flex flex-col lg:flex-row gap-5 w-full h-full animate__animated animate__fadeIn">
           <h1 className="flex justify-start items-start font-medium md:font-semibold text-h3 md:text-h1 lg:text-h2 2xl:text-h1 w-fit">
             Rural tranquility
           </h1>
