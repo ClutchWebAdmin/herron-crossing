@@ -11,7 +11,6 @@ import photo10 from "../../../public/images/concept-map-3.png";
 import photo11 from "../../../public/images/concept-map-4.png";
 import photo12 from "../../../public/images/concept-map-5.png";
 import photo13 from "../../../public/images/aerial-view-1.png";
-import photo14 from "../../../public/images/aerial-view-2.png";
 import photo15 from "../../../public/images/aerial-view-3.png";
 import photo16 from "../../../public/images/aerial-view-4.png";
 import photo17 from "../../../public/images/aerial-view-5.png";
@@ -27,7 +26,6 @@ import Carousel from "../components/Carousel";
 
 const propertyPhotos = [
   photo13,
-  photo14,
   photo15,
   photo16,
   photo17,
