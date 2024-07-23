@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import { RiMenuFill, RiCloseFill } from "react-icons/ri";
-import { navLinks } from "../data/NavLinks";
+import { mobileNavLinks } from "../data/NavLinks";
 
 export default function Menu() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -52,7 +52,7 @@ export default function Menu() {
             </div>
 
             <div className="flex flex-col gap-5 h-full">
-              {navLinks.map((item, index) => (
+              {mobileNavLinks.map((item, index) => (
                 <Link
                   key={index}
                   href={item.linkTo}
