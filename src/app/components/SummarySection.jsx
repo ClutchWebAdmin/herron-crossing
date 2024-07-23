@@ -27,7 +27,7 @@ export default function SummarySection({
             {heading}
           </h3>
           <div
-            className="flex flex-col gap-5 mb-10 text-h6 lg:text-h5"
+            className="flex flex-col gap-5 mb-10 text-h6"
             data-aos="fade-in"
             data-aos-duration="1000"
             data-aos-once="true"
